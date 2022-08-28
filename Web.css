@@ -1,0 +1,51 @@
+h1 {color: green;
+    background-color: blanchedalmond;
+    font-size: 60px;
+    font-weight: normal;    
+    border: 5px dotted blue;
+    font-family: cursive;
+    text-transform: uppercase
+  }
+
+p { display: flex;
+    color: black;
+    font-size: 40px;
+}
+
+div {
+    padding: 2rem;
+    display: flex;
+    font:100px;
+    background-color :orange;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+button {
+    color: orange;
+    font-size: larger;
+    transition: all .5s linear;
+}
+.img {
+alt: initial;
+}
+button:hover {
+color: greenyellow;
+}
+
+
+
+  
+   
+  
+ 
+
+
+
+  
+  
+  
+   
