@@ -7,9 +7,22 @@ h1 {color: green;
     text-transform: uppercase
   }
 
-p { display: flex;
+/* p { display: flex;
     color: black;
     font-size: 40px;
+} */
+
+.pic1 {
+    height: 200px;
+    width: auto;
+}
+.pic2 {
+    height: 200px;
+    width: auto;
+}
+.pic3 {
+    height: 200px;
+    width: auto;
 }
 
 div {
@@ -19,12 +32,12 @@ div {
     background-color :orange;
     flex-wrap: wrap;
     flex-direction:column;
-    justify-content:flex-start;
     align-items: center;
     flex-basis: 200px;
 }
 
 button {
+
     color: orange;
     font-size: larger;
     transition: all .5s linear;
@@ -34,6 +47,10 @@ alt: initial;
 }
 button:hover {
 color: greenyellow;
+}
+#buttonContainer {
+flex-direction: row;
+justify-content: space-between;
 }
 
 
